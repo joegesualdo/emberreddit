@@ -1,0 +1,8 @@
+<h2 id='title'>Ember Reddit</h2>
+<ul>
+  {{#each}}
+  <li>{{#link-to 'subreddit' this}}{{this}}{{/link-to}}</a></li>
+  {{/each}}
+</ul>
+
+{{outlet}}
